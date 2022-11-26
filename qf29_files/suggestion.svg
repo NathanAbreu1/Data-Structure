@@ -1,0 +1,19 @@
+<svg id="suggestion" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+    <defs>
+        <style>
+      .cls-2 { fill: #ff9700; }
+        </style>
+    </defs>
+    <g id="Group_21417" data-name="Group 21417">
+        <path id="Path_17552" data-name="Path 17552" d="M50.878 37.407a7.5 7.5 0 1 1 9.254-.009 2.277 2.277 0 0 0-.882 1.786v.565a.75.75 0 0 1-.75.75h-6a.75.75 0 0 1-.75-.75v-.565a2.259 2.259 0 0 0-.872-1.777z" transform="translate(-43.5 -21.749)" style="fill: #ffe2b8;"/>
+        <path id="Path_17552_-_Outline" data-name="Path 17552 - Outline" class="cls-2" d="M58.5 41h-6a1.251 1.251 0 0 1-1.25-1.25v-.565a1.748 1.748 0 0 0-.679-1.383 8 8 0 0 1 4.736-14.3h.194a8 8 0 0 1 4.94 14.292 1.768 1.768 0 0 0-.691 1.4v.562A1.251 1.251 0 0 1 58.5 41zm-3-16.5h-.17a7.032 7.032 0 0 0-6.83 7.039 6.947 6.947 0 0 0 2.686 5.474 2.742 2.742 0 0 1 1.064 2.17v.567a.25.25 0 0 0 .25.25h6a.25.25 0 0 0 .25-.25v-.565A2.762 2.762 0 0 1 59.826 37 7 7 0 0 0 55.5 24.5z" transform="translate(-43.5 -21.749)"/>
+        <path id="Rectangle_7950" data-name="Rectangle 7950" style="fill: none;" d="M0 0h24v24H0z"/>
+        <path id="Line_495" data-name="Line 495" class="cls-2" d="M7.5.5H0A.5.5 0 0 1-.5 0 .5.5 0 0 1 0-.5h7.5A.5.5 0 0 1 8 0a.5.5 0 0 1-.5.5z" transform="translate(8.25 21.75)"/>
+        <path id="Line_496" data-name="Line 496" class="cls-2" d="M0 5.75a.5.5 0 0 1-.5-.5V0A.5.5 0 0 1 0-.5a.5.5 0 0 1 .5.5v5.25a.5.5 0 0 1-.5.5z" transform="translate(12 13.5)"/>
+        <g id="Group_21420" data-name="Group 21420">
+            <path id="Path_17551" data-name="Path 17551" class="cls-2" d="m96 112 3 3 3-3" transform="translate(-87 -101.5)"/>
+            <path id="Path_17551_-_Outline" data-name="Path 17551 - Outline" class="cls-2" d="M99 115.5a.5.5 0 0 1-.354-.146l-3-3a.5.5 0 0 1 .707-.707L99 114.293l2.646-2.646a.5.5 0 0 1 .707.707l-3 3a.5.5 0 0 1-.353.146z" transform="translate(-87 -101.5)"/>
+            <path id="Line_497" data-name="Line 497" class="cls-2" d="M5.5.5h-6v-1h6z" transform="translate(9.5 10.5)"/>
+        </g>
+    </g>
+</svg>
