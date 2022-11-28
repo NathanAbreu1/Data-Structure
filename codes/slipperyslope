@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+struct food{
+
+    char Burguer[50];
+    char Fries[50];
+    char Soda[50];
+    double price;
+};
+
+int main(){
+
+printf("\n\n\n\t\t\t\t Welcome To Slippery Sloope\n\n\n");
+
+printf("\t\t Slippery Slope is a restaurant at the end of the universe, \n \t\ttime is about to end,so enjoy what you have got left! \n\n\n");
+
+printf("\t\t\t\t\tHere is the Menu:\n\n\n");
+
+struct food f1 = {"The Flip Flop Burguer", "The Astonishingly good fries", "Pluto's Blood", 35.00};
+struct food f2 = {"The Heart of The Galaxy", "Vulcano's Stones", "Singularity", 40.00};
+struct food f3 = {"Supernova", "Relativetly Entangled Fries", "Spinoza's spit", 49.99};
+
+
+printf("%s, %s, %s, %0.2lf\n\n\n", f1.Burguer, f1.Fries, f1.Soda, f1.price);
+printf("%s, %s, %s, %0.2lf\n\n\n", f2.Burguer, f2.Fries, f2.Soda, f2.price);
+printf("%s, %s, %s, %0.2lf\n\n\n", f3.Burguer, f3.Fries, f3.Soda, f3.price);
+
+
+    return 0;
+}

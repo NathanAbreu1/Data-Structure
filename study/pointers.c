@@ -1,7 +1,7 @@
 
 // Declariong Pointers:
 
-/*
+
 #include <stdio.h>
 
 int main(){
@@ -123,7 +123,6 @@ void swap(int *num1, int *num2){
 
 }
 
-*/
 
 // Copy one array into another using pointers
 
