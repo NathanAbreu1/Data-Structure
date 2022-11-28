@@ -1,148 +1,40 @@
+// Factorial
 
 #include <stdio.h>
 
-int fun(int n){
-  
-  if(n == 0){
+long int factorial(int n);
+
+int main(){
+
+  int n;
+
+  printf("Enter the number you want the factorial:\n");
+
+  scanf("%d", &n);
+
+  printf("The factorial of %d is: %ld", n, factorial(n));
+
+  return 0;
+}
+
+long int factorial(int n){
+
+  if(n < 1){
+
     return 1;
+
   }else{
-    return 7 + fun(n - 2);
-  }
-}
 
-int main(){
-  
-  printf("%d", fun(4));
-
-  return 0;
-}
-
-
-#include <stdio.h> 
-
-int fun(int n){
-  
-  if(n == 1){
-    return 1;
-  }else{
-    return 1 + fun (n-1);
-  }
-}
-
-int main(){
-
-  int n = 3;
-
-  printf("%d", fun(n));
-
-  return 0;
-}
-
-
-// Fibonacci using direct recursion
-#include <stdio.h>
-
-int fibonacci_01(int i){
-
-  if(i == 0){
-    return 0;
-  }
-
-  if( i == 1){
-    return 1;
-  }
-
-  return fibonacci_01(i - 1) + fibonacci_01(i - 2);
-
-}
-
-int main(){
-
-  int i, n;
-
-  printf("Enter a digit for fibonacci series: ");
-  scanf("%d", & n);
-
-  for(i = 0; i < n; i++){
-    printf(" %d ", fibonacci_01(i));
-  }
-
-  return 0;
-
-}
-
-
-
-// Fbonacci using indirect recursion
-
-#include <stdio.h>
-
-void odd();
-void even();
-int n=1;
-
-int main(){
-
-  odd();
-
-}
-
-void odd(){
-
-  if(n <= 10){
-    printf("%d", n+1);
-   n++;
-
-  even();
+    return n*factorial(n-1);
 
   }
-
-  return;
-}
-
-void even(){
-
-  if(n <= 10){
-    printf(" %d ", n-1);
-  n++;
-
-  odd();
-
-  } 
-  return;
 }
 
 
-// Factorial Number
 
-#include <stdio.h>
-
-int factorial_01(int n);
-
-int main(){
-
-  int a;
-  int factor;
-
-  printf("Enter your number: \n");
-  scanf("%d", &a);
-
-  factor = factorial_01(a);
-
-  printf(" factorial of %d = %d \n", a, factor);
-  return 0;
-}
-
-int factorial_01(int n){
-
-  if(n == 0){
-    return 1;
-  }else{
-    return (factorial_01 (n-1)*n);
-  }
-}
 
 // Move the X using Recursion
+
 #include <stdio.h>
 
 void movex(char *word);
@@ -172,6 +64,9 @@ void movex(char *word){
 
     }
   }
+
+
+
 
 // F91 Number
 
@@ -205,4 +100,83 @@ unsigned int f91 (unsigned int n){
   }
   
 
+}
+
+
+
+#include <stdio.h>
+
+long int fibonacci(int n);
+
+int main(){
+
+  int n;
+
+
+  scanf("%d", &n);
+
+  printf("The fibonnaci of %d is:\n", n);
+
+
+  printf("%ld\t", fibonacci(n));
+
+
+  return 0;
+}
+
+long int fibonacci(int n){
+
+  if(n < 1){
+
+    return 1;
+
+  }
+  
+  if(n == 0){
+
+    return 0;
+
+    }else{
+
+    return fibonacci(n-1) + fibonacci(n-2);
+
+  }
+}
+
+
+// Fibonacci
+
+#include <stdio.h>
+
+long int fibonacci(int n);
+
+int main(){
+
+  int n;
+
+  printf("Enter the Fibo Number:\n");
+
+  scanf("%d", &n);
+
+  printf("The fibo of %d is: %ld", n, fibonacci(n));
+  
+  return 0;
+}
+
+long int fibonacci(int n){
+
+  if(n == 0){
+    
+    return 0;
+
+  }
+
+  if(n == 1){
+
+    return 1;
+
+  }else{
+
+    return fibonacci(n-1) + fibonacci(n-2);
+  }
 }
