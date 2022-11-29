@@ -188,6 +188,7 @@ int main(){
   return 0;
 }
 
+// Swaparray
 void swaparray(int *array1[], int *array2[]){
 
 int i;
@@ -195,4 +196,23 @@ int i;
  *array1[i] = *array2[i];
  *array2[i] = *array1[i];
 
+}
+
+// Maloc (Memory Allocation)
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void){
+
+  char *nome;
+
+  nome = (char *) malloc(21);
+
+  printf("Digite seu nome: ");
+  gets(nome);
+
+  printf("%sn", nome);
+
+  return 0;
 }

@@ -1,34 +1,30 @@
 #include <stdio.h>
 
-long int fibonacci(int n);
-
 int main(){
 
-  int n;
+  int sementes;
+  int code[10];
+  int quality[10];
+  int i;
+  int menorcode;
+  int menorquality;
 
-  printf("Enter the Fibo Number:\n");
+  scanf("%d", &sementes);
 
-  scanf("%d", &n);
+  for(i = 0; i < 10; i++){
 
-  printf("The fibo of %d is: %ld", n, fibonacci(n));
-  
-  return 0;
-}
-
-long int fibonacci(int n){
-
-  if(n == 0){
-    
-    return 0;
+    scanf("%d %d", &code[i], &quality[i]);
 
   }
 
-  if(n == 1){
+  for(i = 0; i < 10; i++){
 
-    return 1;
+    
+  }
 
-  }else{
+  for(i = 0; i < 10; i++){
 
-    return fibonacci(n-1) + fibonacci(n-2);
+  printf("%d %d\n", code[i], quality[i]);
+
   }
 }

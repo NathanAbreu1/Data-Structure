@@ -19,7 +19,7 @@ int main(){
 
 long int factorial(int n){
 
-  if(n < 1){
+  if(n == 1){
 
     return 1;
 
@@ -29,6 +29,7 @@ long int factorial(int n){
 
   }
 }
+
 
 
 
@@ -103,45 +104,6 @@ unsigned int f91 (unsigned int n){
 }
 
 
-
-#include <stdio.h>
-
-long int fibonacci(int n);
-
-int main(){
-
-  int n;
-
-
-  scanf("%d", &n);
-
-  printf("The fibonnaci of %d is:\n", n);
-
-
-  printf("%ld\t", fibonacci(n));
-
-
-  return 0;
-}
-
-long int fibonacci(int n){
-
-  if(n < 1){
-
-    return 1;
-
-  }
-  
-  if(n == 0){
-
-    return 0;
-
-    }else{
-
-    return fibonacci(n-1) + fibonacci(n-2);
-
-  }
-}
 
 
 // Fibonacci
