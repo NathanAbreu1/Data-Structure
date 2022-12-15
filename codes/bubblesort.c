@@ -1,3 +1,61 @@
+
+// Print the elements of an array in correct order
+
+#include <stdio.h>
+
+void bubblesort(int array[], int size);
+void printarray(int array[], int size);
+
+int main(){
+
+int array[] = {6, -2, 7, -13, 28};
+int n = 5;
+
+printf("The current array is:\n");
+
+printarray(array, n);
+
+printf("The array after bubblesort is:\n");
+
+bubblesort(array, n);
+printarray(array, n);
+
+    return 0;
+}
+
+
+void bubblesort(int array[], int size){
+    
+    int temp;
+
+    for(int step = 0; step < size - 1; step++){
+
+        for(int i = 0; i < size - step - 1; i++){
+
+            if(array[i] > array[i + 1]){
+
+                temp = array[i];
+                array[i] = array[i + 1];
+                array[i + 1] = temp;
+            }
+        }
+    }
+
+}
+
+void printarray(int array[], int size){
+
+    for(int i = 0; i < size; i++){
+
+        printf("%d ", array[i]);
+    }
+
+    printf("\n");
+}
+
+
+// Concatenate arrays and use bubblesort
+
 #include <stdio.h>
 
 void bubblesort(int array[], int size);
